@@ -1,0 +1,50 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: bisque;
+}
+header{
+    background-color: rgb(211, 189, 162);
+    padding: 20px;
+    text-align: center;
+}
+main{
+    max-width: 500px;
+    padding: 25px;
+    margin: auto;
+    background-color: white;
+}
+footer{
+    position: absolute;
+    width: calc(100% - 40px);
+    padding: 20px;
+    bottom: 0;
+    background-color: rgb(165, 147, 125);
+    color: white;
+    text-align: center;
+}
+section{
+    margin-top: 50px;
+}
+
+/* inputs */
+input{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    transition: .5s;
+}
+#but:hover{
+    background-color: bisque;
+    border: 1px solid rgb(221, 198, 170);
+}
+#val{
+    color: green;
+}
+#inv{
+    color: red;
+}
